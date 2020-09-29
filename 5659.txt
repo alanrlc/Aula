@@ -1,0 +1,57 @@
+Curso em Vídeo Python
+
+(COMEÇANDO SEMPRE NO 0)
+
+Fatiamento
+
+frase[9:21:2] = pegar o caracter 9 até o 20 de 2 em 2;
+
+
+
+Análise
+
+len(frase) = contar quantos caracteres tem;
+frase.count('o') = contar quantas vezes aparece o "o";
+frase.count('o', 0, 13) =  Realiza uma contagem já com fatiamento, contando quantos "o" tem do 0 até o 12;
+frase.find('deo') = Ira mostrar em que posição "deo" começou = 11;
+frase.find('Android') = Ira procurar a palavra "ANDROID" e se não existir irá retornar -1;
+'Curso' in frase = dentro da palavra existe curso? se sim retornara True. se não False;
+
+
+
+Transformação
+
+frase.replace('Python', 'Android') = vai procurar a palavra "Python" e substituir por "Android";
+frase.upper() = Deixar todas letras maiusculas;
+frase.lower() = Deixar todas as letras minusculas;
+frase.capitalize() = Deixar todos os caracteres em minusculo e deixar a primeira em maiuscula;
+frase.title() = Analisar todas as palavras e aonde tiver espaço vai deixar a primeira letra maiuscula;
+frase.strip() = Remover todos os espaços inutis do começo e do fim das palavras;
+frase.rstrip() = Remover todos os espaços inutés da direita;
+frase.lstrip() = Remover todos os espaços inutés da esquerda;
+
+
+
+Divisão
+
+frase.split() = Aonde tem espaço cria uma divisão e uma nova lista;
+
+
+
+Junção
+
+'-'.join(frase) = juntar todos os elementos de frase usando o separador "-" ou qualquer outro;
+
+
+
+Exemplos: 
+
+print(frase.upper().count('O')) = deixar todas as letras maiusculas e contar quantos O maiusculo existe;
+print(len(frase.strip())) = remove todos espaços da direita e esquerda e conta quantos caracteres tem;
+print(frase.replace('Python', 'Android')) = Substitui o python para android
+print(frase.lower().fing('vídeo)) = Deixa todas as letras minusculas e localiza video;
+dividido = frase.split() print(dividido[0]) = Irá dividir e imprimir apenas o primeiro grupo "CURSO";
+
+
+
+
